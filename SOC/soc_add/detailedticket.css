@@ -1,0 +1,37 @@
+.content {
+    color: #ffffff;
+    font-size: 40px;
+}
+.bg-blur {
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+.content-front {
+    position:absolute;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+}

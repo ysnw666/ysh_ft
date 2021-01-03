@@ -1,0 +1,321 @@
+/** css配置_index 
+2020年3月23日 11:33:45
+ccdalao
+842105949
+**/
+.futures-version-2-box {
+    box-shadow: 0 10px 100px 0 rgba(77, 77, 119, 0.1);
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #eaeef1;
+    margin-top: -20px;
+    position: relative;
+}
+.futures-version-2-box:hover::before {
+    height: 100%;
+}
+.futures-version-2-box i {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 4px;
+    display: block;
+    position: relative;
+}
+.futures-version-2 div:nth-child(1) .futures-version-2-box i {
+    color: #83ecff;
+}
+.futures-version-2 div:nth-child(2) .futures-version-2-box i {
+    color: #ff87a3;
+}
+.futures-version-2 div:nth-child(3) .futures-version-2-box i {
+    color: #8BC34A;
+}
+.futures-version-2-box h5 {
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: -0.2px;
+    position: relative;
+}
+.futures-version-2-box p {
+    font-weight: 300;
+    font-size: 13px;
+    font-family:'Poppins', sans-serif;
+    line-height: 23px;
+    position: relative;
+}
+.futures-version-2-box .free-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ffeb3b;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    font-size: 13px;
+    transform: rotate(90deg);
+    border-radius: 3px 0 0 6px;
+}
+.futures-version-2-box .free-badge b {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 0 0 6px;
+    border-color: transparent transparent transparent #ecda34;
+    position: absolute;
+    top: -7px;
+    left: 2px;
+    transform: rotate(-90deg);
+}
+.futures-version-2-box .free-badge:after {
+    content:'';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 14.5px 10.5px 0;
+    border-color: transparent #ffeb3b transparent transparent;
+    transform: rotate(-90deg);
+    top: 3px;
+    right: -12px;
+}
+.futures-version-2-box .free-badge:before {
+    content:'';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 10.5px 14.5px 0 0;
+    border-color: #ffeb3b transparent transparent transparent;
+    transform: rotate(-90deg);
+    bottom: 3px;
+    right: -12px;
+}
+.futures-version-2-box .btn btn-cc {
+    background: #2fd5c9;
+    border: 2px solid #2fd5c9;
+    margin-top: 5px;
+    display: inline-block;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 6px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+.futures-version-2-box .btn btn-cc:hover {
+    background: #2cc5ba;
+    border: 2px solid #2cc5ba;
+    color: #fff;
+    text-decoration: none;
+}
+/* 大屏幕 ：大于等于1200px*/
+ @media (min-width: 1200px) {
+    .sss2 {
+        padding-top: 69px;
+        padding-left: 95px;
+        font-size: 22px;
+    }
+    .sss1 {
+        color:#fff;
+        font-size: 41px;
+    }.i-title span {
+    font-size: 2.72rem;
+    color: #1e212c;
+    display: block;
+    margin-bottom: 10px;
+}
+.i-title small {
+    color: #89919b;
+    font-size: 1.18rem;
+}
+}
+/*默认*/
+ @media (min-width: 980px) {
+}
+/* 平板电脑和小屏电脑之间的分辨率 */
+ @media (min-width: 768px) and (max-width: 979px) {
+}
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+ @media (max-width: 767px) {
+}
+/* 横向放置的手机及分辨率更小的设备 */
+ @media (max-width: 480px) {
+    .sss2 {
+        padding-top: 60px;
+        /* padding-left: 95px; */
+        font-size: 22px;
+    }
+    .sss1 {
+        color:#fff;
+        font-size: 25px;
+    }
+    .i-title span {
+    font-size: 17.536px;
+    color: #1e212c;
+    display: block;
+    margin-bottom: 10px;
+}
+.i-title small {
+    color: #89919b;
+    font-size: 12px;
+}
+}
+
+.mt70 {
+    margin-top: 0.7rem;
+}
+
+.tac {
+    text-align: center;
+}
+
+/** 配置2 **/
+
+
+.ddc-scenarios__content--active .ddc-scenarios__right {
+                transform: translate(5px, -5px);
+                transition: all .5s ease;
+            }
+            .ddc-scenarios__right {
+                position: relative;
+                left: 11px;
+                top: 5px;
+                background: linear-gradient(-154deg, rgb(0, 164, 255), rgb(87, 128, 247));
+                padding: 0 53px;
+                color: #fff;
+                line-height: 2.5;
+                border-radius: 1px;
+            }
+            .ddc-scenarios__right, .ddc-scenarios__right-shadow {
+                width: 298px;
+                height: 184px;
+                border-radius: 2px;
+            }
+            .ddc-scenarios__content--active .ddc-scenarios__right-shadow {
+                transform: translate(-16px, 16px);
+                transition: all .5s ease;
+            }
+            .ddc-scenarios__right-shadow {
+                position: absolute;
+                right: 16px;
+                top: 10px;
+                opacity: .16;
+                background-image: linear-gradient(-143deg, #495989, #49598c);
+                z-index: -1;
+            }
+            .ddc-scenarios__right, .ddc-scenarios__right-shadow {
+                width: 100%;
+                height: 354px;
+                border-radius: 8px;
+            }
+            .ddc-scenarios__right-title {
+                position: absolute;
+                font-size: 22px;
+                color: #fff;
+                line-height: 2;
+                text-align: center;
+                font-weight: 700;
+                text-shadow: 0 0 4px rgba(0, 0, 0, .3);
+                padding-top: 20px;
+            }
+            .ddc-scenarios__right-content {
+                padding-top: 108px;
+                line-height: 2.3;
+                font-size: 18px;
+            }
+            .ddc-scenarios__right-more {
+                position: absolute;
+                right: 53px;
+                bottom: 14px;
+                font-weight: 700;
+            }
+            .ddc-scenarios__right-title:before {
+                margin-right: 8px;
+            }
+            .ddc-scenarios__right-title:after, .ddc-scenarios__right-title:before {
+                position: relative;
+                display: inline-block;
+                width: 56px;
+                height: 1px;
+                background-color: #fff;
+                content:"";
+                transform: translateY(-6px);
+                opacity: .5;
+            }
+            .ddc-scenarios__right:hover {
+                position: relative;
+                left: 11px;
+                top: 5px;
+                background: linear-gradient(-154deg, #5282f8, rgb(87, 128, 247));
+                padding: 0 53px;
+                color: #fff;
+                line-height: 2.5;
+                border-radius: 8px;
+                top: 2px;
+            }
+            .footer-section-banner {
+                padding: 30px 0;
+                background: #2b2e31;
+                color: #fff;
+            }
+            .free-trial-footer-banner-title {
+                margin: 0;
+                font-size: 20px;
+                font-weight: 600;
+                font-family:'Poppins', sans-serif;
+                letter-spacing: 0.5px;
+                margin-bottom: 8px;
+                text-transform: capitalize;
+            }
+            .free-trial-footer-banner-text {
+                color: #c4c7de;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 27px;
+            }
+            .free-trial-footer-links {
+                text-align: center;
+            }
+            .free-trial-footer-links a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 500;
+                padding: 12px 30px;
+                font-size: 13px;
+                border-radius: 30px;
+                margin: 5px 5px;
+                display: -webkit-inline-box;
+            }
+            .free-trial-footer-links a.sign-btn {
+                background: #00a0f5;
+                color: #fff;
+            }
+            .free-trial-footer-links a.sign-btn:hover {
+                background: #0983c3;
+                color: #fff;
+            }
+            .free-trial-footer-links a.log-btn {
+                background: #fff;
+                color: #00a0f5;
+                text-shadow: 0 0 black;
+            }
+            .free-trial-footer-links a.log-btn:hover {
+                background: #e2e6e8;
+                color: #0a92da;
+            }
+            .footer-section {
+                padding: 15px 0 15px;
+                background: #2b2e31;
+                color: #fff;
+            }
+            .quiq-links-footer-ul li {
+                list-style: none;
+                position: relative;
+                padding: 4px 0;
+            }
+            .quiq-links-footer-ul li a {
+                color: #bfbfbf;
+            }
